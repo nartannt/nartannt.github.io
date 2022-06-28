@@ -1,0 +1,92 @@
+@font-face { font-family: Adigiana; src: url('fonts/AdigianaUI.ttf'); }
+@font-face {font-family: Bree-Serif; src: url('fonts/BreeSerif-Regular.ttf')}
+
+body {
+	height: 125vh;
+}
+
+
+header {
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	align-items: center;
+}
+
+header * {
+	display: inline;
+}
+
+header li {
+	margin: 5vw;
+}
+
+header li a {
+	color: black;
+	text-decoration: none;
+	font-size: 30;
+	font-family: Bree-Serif;
+}
+
+h1 {
+	text-align: center;
+	font-family:Adigiana;
+	font-style:italic;
+	font-size:50;
+	margin: 0;
+}
+
+em {
+	color:#d8528d;
+	font-style: normal;
+}
+
+h2 {
+	text-align: center;
+	font-family:Adigiana;
+	font-style:italic;
+	font-size:50;
+	color:#d8528d
+}
+
+h3 {
+	text-align: left; 
+	font-family:Bree-Serif; 
+	font-size:20; 
+	color: black;
+	margin-right:15vw;
+	margin-left:15vw;
+}
+
+h4 {
+	text-align: center;
+	font-family:Adigiana;
+	font-size:30;
+	margin: 0
+}
+
+h5 {
+	text-align: left;
+	font-family: Bree-Serif;
+	color: black;
+	font-size: 20;
+	margin-left: 3vw;
+	margin-top: 0;
+}
+	
+.button1{
+	text-align: center;
+	background-color: white;
+	color: black;
+	font-size: 20;
+	font-family: Bree-Serif;
+	border: 0.3vh solid #d8528d;
+	transition-duration: 0.3s;
+}
+
+.button1:hover {
+	background-color: #d8528d;
+	color: white;
+}
+
+

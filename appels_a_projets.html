@@ -1,0 +1,20 @@
+<html>
+   <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <title>Appels à projets</title>
+      <link rel="stylesheet" href="sda_style.css">
+   </head>
+   <body>
+
+      <div id="nav-placeholder">
+        <script>
+          $.get("nav.html", function(data){
+              $("#nav-placeholder").replaceWith(data);
+          });
+        </script> 
+      </div>
+      <div style="text-align: center">
+      	<img src="images/appel_a_projet_courts_metrages.png" alt="appel à projet courts-métrages"; width=500; height=auto style="margin-top: 5vh"> 
+      </div>
+   </body>
+</html>
