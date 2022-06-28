@@ -1,0 +1,32 @@
+<html>
+   <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <title>Contact</title>
+      <link rel="stylesheet" href="sda_style.css">
+   </head>
+
+
+      <div id="nav-placeholder">
+        <script>
+          $.get("nav.html", function(data){
+              $("#nav-placeholder").replaceWith(data);
+          });
+        </script> 
+      </div>
+
+
+   <body>
+     <div style="display:flex; justify-content: left; gap: 0vw; margin-top: 3vh">
+       <h5>
+         <img src="images/facebook_icon.png" alt="facebook icon"; width=50vw; height=50vw; style="vertical-align:middle">
+         Les SENS de l'Art
+       </h5>
+     </div>
+     <div style="display:flex; justify-content: left; gap: 0vw">
+       <h5>
+         <img src="images/mail_icon.png" alt="mail icon"; width=50vw; height=50vw; style="vertical-align:middle">
+         contact@lessensdelart.fr
+       </h5>
+    </div>
+   </body>
+</html>
